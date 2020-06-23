@@ -24,3 +24,5 @@ jobs:
 
     - name: Merge dict
       uses: amorphobia/action-merge-shupin-dict@master
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
